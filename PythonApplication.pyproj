@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>011f980b-ffc6-4e61-91a5-549eff6a22de</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication.py</StartupFile>
+    <StartupFile>PythonExercise2_3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="PythonExercise2_3.py" />
     <Compile Include="PythonExample1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
