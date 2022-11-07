@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="PythonExercise2_11.py" />
     <Compile Include="PythonExercise2_9.py" />
     <Compile Include="PythonExercise2_8.py" />
     <Compile Include="PythonExercise2_6.py" />
