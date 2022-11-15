@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>011f980b-ffc6-4e61-91a5-549eff6a22de</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonExercise3_6.py</StartupFile>
+    <StartupFile>PythonWinform.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="PythonWinform.py" />
     <Compile Include="PythonExercise3_6.py" />
     <Compile Include="PythonExercise2_11.py" />
     <Compile Include="PythonExercise2_9.py" />
