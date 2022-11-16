@@ -37,6 +37,10 @@ class Ui_MainWindow(object):
 
     def pushButton_clicked(self):
         self.label.setText("Hello World")
+        self.MsgBox()
+        
+
+    def MsgBox(self):
         msg = QtWidgets.QMessageBox()
         msg.setWindowTitle("Hi All")
         msg.setText("Hello World!")
