@@ -1,0 +1,2 @@
+USE TSQL2012;
+SELECT * FROM HR.Employees
