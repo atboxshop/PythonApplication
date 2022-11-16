@@ -32,10 +32,16 @@ class Ui_MainWindow(object):
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-        self.pushButton.clicked.connect(self.pushButton_clicked)
+        pushB = self.pushButton
+        pushB.clicked.connect(self.pushButton_clicked)
 
     def pushButton_clicked(self):
         self.label.setText("Hello World")
+        msg = QtWidgets.QMessageBox()
+        msg.setWindowTitle("Hi All")
+        msg.setText("Hello World!")
+        msg.setIcon(QtWidgets.QMessageBox.Critical)
+        msg.exec_()
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
