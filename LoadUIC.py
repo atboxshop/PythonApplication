@@ -18,6 +18,12 @@ class UI(QMainWindow):
         #Load the App
         self.show()
 
+        #Do Something
+        self.button.clicked.connect(self.clicker)
+
+    def clicker(self):
+        self.label.setText("Hello World")
+        self.plaintextedit.setPlainText("Hello World")
 
 # Inititlize the App
 app = QApplication(sys.argv)
