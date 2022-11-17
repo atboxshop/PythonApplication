@@ -1,1 +1,25 @@
+from PyQt5.QtWidgets import QMainWindow, QApplication, QLabel, QPlainTextEdit, QPushButton
+from PyQt5 import uic
+import sys
 
+class UI(QMainWindow):
+    def __init__(self):
+        super(UI, self).__init__()
+
+        #Load the UI file
+        uic.loadUi("DesignerUI.ui", self)
+
+        #Define Our Widgets
+        self.label = self.findChild(QLabel, "label")
+        self.plaintextedit = self.findChild(QPlainTextEdit, "plainTextEdit")
+        self.button = self.findChild(QPushButton, "pushButton")
+        self.button2 = self.findChild(QPushButton, "pushButton_2")
+
+        #Load the App
+        self.show()
+
+
+# Inititlize the App
+app = QApplication(sys.argv)
+UIWindow = UI()
+app.exec_()

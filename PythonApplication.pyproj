@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>011f980b-ffc6-4e61-91a5-549eff6a22de</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pyqt.py</StartupFile>
+    <StartupFile>LoadUIC.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
