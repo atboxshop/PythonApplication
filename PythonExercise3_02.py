@@ -19,7 +19,7 @@ else:
         grade = int(input('Enter grade, 0 to end: '))
         if grade == -1:
             grade = -1
-        if grade < 0:
+        elif grade < 0:
             print('Grade value must be run from 0 to end')
             grade = 0
             grade_counter -= 1
