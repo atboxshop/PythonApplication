@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LoadUIC.py" />
+    <Compile Include="PythonExercise3_02.py" />
     <Compile Include="pyqt.py" />
     <Compile Include="PythonWinform.py" />
     <Compile Include="PythonExercise3_6.py" />
