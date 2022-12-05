@@ -8,6 +8,18 @@ count4 = 1
 space_f1 = 1
 
 for row in range(10):
+    if row < 1: 
+        print('(A)',end='')
+        for space_f2 in range(11):
+            print('',end=' ')
+        print('(B)',end='')
+        for space_f3 in range(11):
+            print('',end=' ')
+        print('(C)',end='')
+        for space_f4 in range(11):
+            print('',end=' ')
+        print('(D)',end='')
+        print('\n')
     for star1 in range(count1):
         print('*',end='')
     for space_s1 in range(space1):
