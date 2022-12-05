@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>011f980b-ffc6-4e61-91a5-549eff6a22de</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LoadUIC.py</StartupFile>
+    <StartupFile>PythonExercise3_18.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LoadUIC.py" />
-    <Compile Include="module1.py" />
+    <Compile Include="PythonExercise3_18.py" />
     <Compile Include="Python Fig3_03.py" />
     <Compile Include="PythonExercise3_02.py" />
     <Compile Include="pyqt.py" />
