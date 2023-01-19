@@ -12,7 +12,7 @@
     <Name>Tensorflow_prj</Name>
     <RootNamespace>Tensorflow_prj</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
-    <InterpreterId>CondaEnv|CondaEnv|Tensor_Env</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|tensorflow_env</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,7 +26,7 @@
     <Compile Include="Tensorflow_prj.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="CondaEnv|CondaEnv|Tensor_Env" />
+    <InterpreterReference Include="CondaEnv|CondaEnv|tensorflow_env" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
